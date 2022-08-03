@@ -1,0 +1,96 @@
+body {
+  text-align: center;
+  background-color:#F3EBE2;
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+.img-circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+}
+
+h1 {
+  color:#D19E78;
+  font-family: 'Quicksand', sans-serif;
+}
+.card-hello{
+  padding: 30px
+}
+.who {
+  padding: 5px
+}
+
+.wagon {
+  padding: 10px
+}
+
+.bouton {
+  background-color: #D19E78;
+  color: #DDE1D4;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #D19E78;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+h2 {
+  color:#EBC9B3;
+}
+
+h3 {
+  color:#DDE1D4;
+}
+.card {
+  border: 1px solid #F6F4F1;
+  border-radius: 50px;
+  margin: 10px;
+  box-shadow: 2px 1px 3px #DDBFAB;
+}
+
+ul {
+  list-style: none;
+  margin-left:0;
+  padding-left:0;
+  text-align: center;
+}
+
+li {
+  margin-bottom:15px;/* à adapter */
+  }
+
+#footer {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
+}
+#footer ul li {
+  display: inline;
+
+}
+
+
+#footer ul li a {
+  text-decoration: none;
+  padding: 5px 20px;
+  color:#D19E78;
+  font-size: 30px;
+}
