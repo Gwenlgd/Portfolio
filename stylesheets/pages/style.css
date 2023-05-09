@@ -1,9 +1,7 @@
 body {
-  background-color:#EAF2F3;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
   margin: 0px;
-} */
+}
 
 /* For a screen < 960px, this CSS will be read */
 @media (max-width: 960px) {

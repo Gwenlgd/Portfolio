@@ -8,6 +8,8 @@ black: #03181B;
 
 body {
 color: #EAF2F3;
+background-color:#FFFFFF;
+background: linear-gradient(38deg, #FFFFFF 0%, #eaf2f3 96%, #dcfafe 100%);
 }
 
 /* Headings */
