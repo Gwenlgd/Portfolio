@@ -1,0 +1,14 @@
+.card-hello {
+  display: flex;
+  /* grid-template-rows: 1fr 1fr 1fr; */
+}
+
+.hello-intro {
+  width: 500px;
+  align-self: center;
+}
+
+.intro {
+  width: 500px;
+  text-align: left;
+}

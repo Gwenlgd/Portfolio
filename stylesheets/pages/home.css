@@ -3,20 +3,42 @@
 @media (max-width: 960px) {
   .pa-container {
     width: 700px;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     display: grid;
     grid-template-rows: 1fr auto;
     grid-template-columns: 100%;
   }
+
+}
+.main-container {
+    margin: 0px auto;
+
+    /* width: 100%; */
+    max-width: 1600px;
+    min-height: 100vh;
+    padding: 200px 150px;
+    display: inline-block;
+}
+
+.main-container.fillHeight {
+  padding: 0px 150px;
 }
 
 
 
-/* body {
+body {
   text-align: center;
   margin: 0px;
 }
 
+.card-hello {
+
+
+  display: grid;
+  grid-template-rows: 1fr auto;
+  grid-template-columns: 100%;
+}
+/*
 ul {
   list-style: none;
   margin-left:0;
