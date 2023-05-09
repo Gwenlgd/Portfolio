@@ -1,0 +1,43 @@
+.nav-bar {
+  padding: 0px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+ .nav-links ol {
+    display: flex;
+    justify-content: space-between;
+
+ }
+
+ .nav-links li {
+  margin: 0px 15px;
+  position: relative;
+  color: #4E8098;
+  font-weight: bold;
+}
+
+.logo-container .img-logo {
+  height: 60px;
+}
+
+.logo-container .img-logo {
+  height: 60px;
+  /* Darkblue #4E8098 */
+  filter: invert(47%) sepia(49%) saturate(370%) hue-rotate(155deg) brightness(89%) contrast(87%);
+  /* Lightblue #ADC9CE */
+  /* filter: invert(88%) sepia(22%) saturate(203%) hue-rotate(141deg) brightness(85%) contrast(92%); */
+}
+
+/*.nav_links ol a {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+} */
