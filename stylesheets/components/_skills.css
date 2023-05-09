@@ -2,16 +2,6 @@
   height: 100%;
 }
 
-.skills h2 span {
-  -webkit-box-shadow: inset 0px -5px 0px 0px #FFA818;
-          box-shadow: inset 0px -5px 0px 0px #FFA818;
-}
-
-h3,
-.skills p {
-  font-weight: lighter;
-}
-
 .skills-container {
   /* margin: 6% auto; */
   display: flex;
@@ -28,13 +18,8 @@ h3,
   font-size: 6.5rem;
 }
 
-.skills-title span:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  color: #FFA818;
-}
-
 .skills-title p {
   text-align: center;
-  font-size: 1.5rem;
+  color: #4E8098;
+  font-weight: bold;
 }

@@ -1,5 +1,17 @@
-// Scrambling Letters Effect
 const app = {};
+
+// Scroll back to top
+app.backToTop = () => {
+  const upTop = $('#top');
+
+  upTop.on('click', function(){
+      $('html, body').animate({
+      scrollTop: $("#home").offset().top
+      }, 1500);
+  })
+}
+
+// Scrambling Letters Effect
 
 const Messenger = function(el){
   'use strict';
@@ -102,3 +114,9 @@ app.switchLight = () => {
 
   })
 }
+
+app.menuSlide();
+
+    // Scroll To
+    app.arrowSlide();
+    app.backToTop();

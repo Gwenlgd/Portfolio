@@ -38,6 +38,11 @@ body {
   grid-template-rows: 1fr auto;
   grid-template-columns: 100%;
 }
+
+li {
+  list-style-type: none;
+  }
+
 /*
 ul {
   list-style: none;
