@@ -11,13 +11,60 @@
 
 
 .side-left ul {
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  -webkit-box-align: center; */
-  align-items: center;
+  /* align-items: center; */
   margin: 0px;
   padding: 0px;
   list-style: none;
 }
 
+.side-left li a svg {
+  height: 28px;
+  padding: 6px 7px;
+}
+
+.side-left::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  margin: 0px auto;
+  background-color: #ADC9CE;
+}
+
 /* RIGHT SIDE */
+
+.side-right {
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  left: auto;
+  right: 40px;
+  z-index: 10;
+  color: var(--light-slate);
+}
+
+.side-right a {
+  font-weight: 100;
+  font-size: 12px!important;
+  /* margin: 20px auto; */
+  padding: 13px;
+  letter-spacing: 0.1em;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+}
+
+.side-right a:hover {
+  font-weight: 700;
+
+}
+
+.side-right::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  margin: 0px auto;
+  background-color: #ADC9CE;
+}
