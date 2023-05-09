@@ -1,0 +1,19 @@
+#footer {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
+}
+#footer ul li {
+  display: inline;
+
+}
+
+#footer ul li a {
+  text-decoration: none;
+  padding: 5px 20px;
+  font-size: 30px;
+}

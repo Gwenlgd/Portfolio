@@ -1,0 +1,31 @@
+body {
+  background-color:#EAF2F3;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+} */
+
+/* For a screen < 960px, this CSS will be read */
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+ul {
+  list-style: none;
+  margin-left:0;
+  padding-left:0;
+  text-align: center;
+}
+
+li {
+  margin-bottom:15px;
+  }
+
+  /* Links */
+a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+}

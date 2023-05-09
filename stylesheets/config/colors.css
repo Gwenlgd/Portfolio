@@ -1,0 +1,36 @@
+/*
+white: #EAF2F3;
+lightblue: #ADC9CE;
+blue: #4E8098;
+darkblue: #092327;
+black: #03181B;
+*/
+
+body {
+color: #EAF2F3;
+}
+
+/* Headings */
+h1 {
+ color: #092327;
+}
+
+h2 {
+  color:#4E8098;
+}
+
+h3 {
+  color:#ADC9CE;
+}
+
+p {
+  color: #03181B;
+}
+
+
+a {
+  text-decoration: none;
+  color: #ADC9CE;
+  font-weight: 600;
+  font-size: 16px;
+}

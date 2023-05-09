@@ -1,0 +1,9 @@
+/* change to index.css ?  */
+@import "pages/style.css";
+
+/* Components */
+@import "components/index.css";
+
+/*  Graphical variables */
+@import "./config/fonts.css";
+@import "./config/colors.css";

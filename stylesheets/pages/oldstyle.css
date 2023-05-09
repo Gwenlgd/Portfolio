@@ -1,0 +1,86 @@
+
+body {
+  text-align: center;
+  /* background-color:#F3EBE2; */
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+/* .img-circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+} */
+
+.card-hello{
+  padding: 30px
+}
+.intro {
+  padding: 5px
+}
+
+.description {
+  padding: 10px
+}
+
+.bouton {
+  background-color: #D19E78;
+  color: #DDE1D4;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.card {
+  border: 1px solid #F6F4F1;
+  border-radius: 50px;
+  margin: 10px;
+  box-shadow: 2px 1px 3px #DDBFAB;
+}
+
+ul {
+  list-style: none;
+  margin-left:0;
+  padding-left:0;
+  text-align: center;
+}
+
+li {
+  margin-bottom:15px;/* à adapter */
+  }
+
+
+
+
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter h1 {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
