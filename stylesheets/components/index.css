@@ -1,2 +1,4 @@
-@import "footer.css";
-@import "sides.css";
+@import "_footer.css";
+@import "_sides.css";
+@import "_logo.css";
+@import "_navbar.css";
