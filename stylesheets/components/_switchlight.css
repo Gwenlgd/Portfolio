@@ -1,0 +1,65 @@
+/* .switch-light {
+  margin-top: 15px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  right: 0;
+  top: 80%;
+}
+
+.switch-light .toggle-light {
+  background-color: #030200;
+  border-radius: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5px;
+  position: relative;
+  height: 23px;
+  width: 60px;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  left: 85%;
+  border: 1px solid white;
+}
+
+.switch-light .light-check {
+  opacity: 0;
+}
+
+.switch-light .switch {
+  background-color: #F8F8F8;
+  border-radius: 50%;
+  top: 3px;
+  left: -11px;
+  height: 15px;
+  width: 15px;
+  -webkit-transform: translateX(16px);
+          transform: translateX(16px);
+  -webkit-transition: -webkit-transform 0.2s linear;
+  transition: -webkit-transform 0.2s linear;
+  transition: transform 0.2s linear;
+  transition: transform 0.2s linear, -webkit-transform 0.2s linear;
+}
+
+.switch-light input:checked + .toggle-light .switch {
+  -webkit-transform: translateX(48px);
+          transform: translateX(48px);
+}
+
+.switch-light .fa-sun,
+.switch-light .fa-moon {
+  font-size: 1.4rem;
+}
+
+.switch-light .fa-sun {
+  color: #F06000;
+}
+
+.switch-light .fa-moon {
+  color: #FFA818;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+} */
