@@ -2,7 +2,7 @@
 @import "pages/index.css";
 
 /* Components */
-@import "components/index.css";
+@import "./components/index.css";
 
 /*  Graphical variables */
 @import "./config/fonts.css";
