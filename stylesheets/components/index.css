@@ -1,8 +1,8 @@
-@import "_footer.css";
-@import "_icons.css";
-@import "_navbar.css";
-@import "_project.css";
-@import "_sides.css";
-@import "_skills.css";
+@import "./_footer.css";
+@import "./_icons.css";
+@import "./_navbar.css";
+@import "./_project.css";
+@import "./_sides.css";
+@import "./_skills.css";
 /* @import "_logo.css"; */
-@import "_switchlight.css";
+@import "./_switchlight.css";
