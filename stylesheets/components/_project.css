@@ -1,10 +1,121 @@
-/* .square {
-  height: 300px;
-  width: 150px;
-  border: solid black;
-  position: absolute;
-} */
 
-.square-img img {
-  height: 350px;
+.card-project {
+  display: flex;
+}
+
+.card-descr {
+  width: 700px;
+  height: 550px;
+  text-align: left;
+  font-weight: lighter;
+  margin-top: 35px;
+}
+
+.card-descr h2, h3 {
+  margin-bottom: 25px;
+}
+
+/* LANGUAGES USED */
+
+.card-lang {
+  display: flex;
+}
+
+
+
+.card-lang .skills-title {
+  flex-basis: 0%;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.lang i {
+  font-size: 30px;
+
+}
+
+
+/* SLIDES */
+.contener_slideshow
+{
+  height: 500px;
+  width: 300px;
+  overflow: hidden;
+  position: relative;
+  margin: 0px 100px 0px 10px;
+}
+
+.slid_1, .slid_2, .slid_3, .slid_4, .slid_5, .slid_6
+{
+  position: absolute;
+}
+
+.slid_1 img, .slid_2 img, .slid_3 img, .slid_4 img, .slid_5 img, .slid_6 img
+{
+  height: 550px;
+}
+.slid_1{left: 0;}
+.slid_2{left: 340px;}
+.slid_3{left: 650px;}
+.slid_4{left: 960px;}
+.slid_5{left: 1270px;}
+.slid_6{left: 1580px;}
+.contener_slide
+{
+  width: 1220px;
+  height: 211px;
+  left:0px;
+  position: absolute;
+  -webkit-animation-duration: 18s;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-name: anim_slide;
+  -moz-animation-duration: 18s;
+  -moz-animation-iteration-count:infinite;
+  -moz-animation-name: anim_slide;
+  -ms-animation-duration: 18s;
+  -ms-animation-iteration-count:infinite;
+  -ms-animation-name: anim_slide;
+  animation-duration: 20s;
+  animation-iteration-count:infinite;
+  animation-name: anim_slide;
+}
+@-webkit-keyframes anim_slide
+{
+  0% {left:0px;}
+  4% {left:0px;}
+  20% {left:-340px;}
+  36% {left:-650px;}
+  52% {left:-960px;}
+  68% {left:-1270px;}
+  84% {left:-1580px;}
+}
+@-moz-keyframes anim_slide
+{
+  0% {left:0px;}
+  4% {left:0px;}
+  20% {left:-340px;}
+  32% {left:-650px;}
+  48% {left:-960px;}
+  68% {left:-1270px;}
+  84% {left:-1580px;}
+}
+@-ms-keyframes anim_slide
+{
+  0% {left:0px;}
+  4% {left:0px;}
+  20% {left:-340px;}
+  32% {left:-650px;}
+  48% {left:-960px;}
+  68% {left:-1270px;}
+  84% {left:-1580px;}
+}
+@keyframes anim_slide
+{
+  0% {left:0px;}
+  4% {left:0px;}
+  20% {left:-340px;}
+  32% {left:-650px;}
+  48% {left:-960px;}
+  68% {left:-1270px;}
+  84% {left:-1580px;}
 }
