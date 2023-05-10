@@ -21,7 +21,7 @@ h2 {
   color:#4E8098;
 }
 
-h3 {
+h3, h4 {
   color:#ADC9CE;
 }
 
@@ -44,4 +44,14 @@ i {
 
 i:hover {
   color: #4E8098;
+}
+
+/* BACKGROUND MESSAGE SOFT SKILLS */
+
+.messagedefilant div span {
+  background: #ADC9CE;
+}
+
+.messagedefilant-soft div span {
+  background: #4E8098;
 }
