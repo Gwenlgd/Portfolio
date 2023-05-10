@@ -1,0 +1,9 @@
+/* Pages  */
+@import "./stylesheets/pages/index.css";
+
+/* Components */
+@import "./stylesheets/components/index.css";
+
+/*  Graphical variables */
+@import "./stylesheets/config/fonts.css";
+@import "./stylesheets/config/colors.css";
