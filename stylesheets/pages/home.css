@@ -1,8 +1,8 @@
-/* For a screen < 960px, this CSS will be read */
+/* For a screen < 960px */
 
-@media (max-width: 960px) {
+@media screen and (max-width: 960px) {
   .pa-container {
-    width: 700px;
+    width: 90%;
     /* min-height: 100vh; */
     display: grid;
     grid-template-rows: 1fr auto;
@@ -10,14 +10,18 @@
   }
 
 }
-.main-container {
-    margin: 0px auto;
 
+
+.main-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
     /* width: 100%; */
-    max-width: 1600px;
+    /* max-width: 1600px;
     min-height: 100vh;
     padding: 200px 150px;
-    display: inline-block;
+    display: inline-block; */
 }
 
 .main-container.fillHeight {
