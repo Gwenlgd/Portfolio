@@ -1,9 +1,10 @@
 .skills {
   height: 100%;
+  margin: 150px 0px;
 }
 
 .skills-container {
-  /* margin: 6% auto; */
+  margin: 70px;
   display: flex;
 }
 

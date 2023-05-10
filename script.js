@@ -94,8 +94,8 @@ const Messenger = function(el){
   m.current_length = 0;
   m.fadeBuffer = false;
   $(el).html('');
-
-  setTimeout(m.animateIn, 200);
+// intialement : setTimeout(m.animateIn, 200); but put 0 because made it move
+  setTimeout(m.animateIn, 0);
   };
 
   m.init();
