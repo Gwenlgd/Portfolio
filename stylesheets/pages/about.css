@@ -6,7 +6,7 @@
 .hello-intro {
   width: 500px;
   text-align: right;
-  margin-right: 70px;
+  margin-right: 50px;
 }
 
 .intro {
@@ -17,7 +17,11 @@
 }
 
 .hello-img {
-  height: 420px;
+  height: 500px;
   border: solid;
   border-radius: 5px;
+}
+
+h4 {
+  font-weight: lighter;
 }
