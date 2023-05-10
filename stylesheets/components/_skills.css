@@ -8,15 +8,11 @@
 }
 
 .skills-title {
-  -ms-flex-preferred-size: 23%;
-      flex-basis: 23%;
+  flex-basis: 23%;
   margin: 10px;
   padding: 10px;
 }
 
-.skills-title span {
-  font-size: 6.5rem;
-}
 
 .skills-title p {
   text-align: center;
