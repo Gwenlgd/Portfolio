@@ -1,0 +1,29 @@
+
+@media only screen and (min-width : 1025px) and (max-width : 1440px) {
+  .pa-container {
+    width: 90%;
+    /* min-height: 100vh; */
+    display: grid;
+    grid-template-rows: 1fr auto;
+    grid-template-columns: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+  .pa-container {
+    width: 90%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    grid-template-columns: 100%;
+  }
+}
+/*
+@media only screen and (max-width: 767px){
+  .pa-container {
+    margin-top: 0px;
+  }
+
+  .nav-bar, .side-left, .side-right {
+    visibility: hidden;
+  }
+} */
