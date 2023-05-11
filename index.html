@@ -16,7 +16,7 @@
     <div class="pa-container">
       <div class="nav-bar">
         <div class="logo">
-          <a href="#" aria-label="home">
+          <a href="https://gwenlgd.github.io/Portfolio/#home" aria-label="home">
             <div class="logo-container">
               <img class="img-logo" src="./images/GL.svg" alt="logo" fill="currentColor"/>
             </div>
@@ -25,16 +25,16 @@
         <div class="nav-links">
           <ol>
             <li class="fadedown-enter-done" style="transition-delay: 0ms;">
-              <a href="/#about">ABOUT</a>
+              <a href="#about">ABOUT</a>
             </li>
             <li class="fadedown-enter-done" style="transition-delay: 100ms;">
-              <a href="/#jobs">SKILLS</a>
+              <a href="#skills">SKILLS</a>
             </li>
             <li class="fadedown-enter-done" style="transition-delay: 200ms;">
-              <a href="/#projects">PROJECTS</a>
+              <a href="#projects">PROJECT</a>
             </li>
             <li class="fadedown-enter-done" style="transition-delay: 300ms;">
-              <a href="/#contact">CONTACT</a>
+              <a href="#contact">CONTACT</a>
             </li>
           </ol>
         </div>
@@ -68,7 +68,7 @@
       <div class="main-container fillHeight">
         <!-- ABOUT ME HELLO-->
 
-        <div class="card-hello">
+        <div id="about" class="card-hello" >
           <div class="hello-intro">
             <h1><span class="name" id="messenger">Hi, I am Gwen</span></h1>
             <h4> Gratuated from <strong>Le Wagon Bali</strong>, Batch #958 in September 2022</h4>
@@ -89,13 +89,9 @@
       </div>
 
       <!-- SKILLS -->
-      <div class="skills">
-        <h2>SKILLS</h2>
+      <div id="skills" class="skills" >
+        <h2 class="skills-h2">SKILLS</h2>
         <ul class="skills-container">
-            <li class="skills-title">
-              <i class="devicon-figma-plain"></i>
-                <p>Figma</p>
-            </li>
             <li class="skills-title">
               <i class="devicon-html5-plain"></i>
                 <p>HTML5</p>
@@ -124,6 +120,10 @@
               <i class="devicon-vscode-plain"></i>
               <p>VS Code</p>
             </li>
+            <li class="skills-title">
+              <i class="devicon-figma-plain"></i>
+                <p>Figma</p>
+            </li>
         </ul>
       </div>
     </div>
@@ -151,9 +151,8 @@
     </div>
 
     <div class="main-container fillHeight">
-      <h2>PROJECTS</h2>
-
-      <div class="card-project">
+      <h2>PROJECT</h2>
+      <div class="card-project" id="projects">
         <div class="contener_slideshow">
           <div class="contener_slide">
             <div class="slid_1">
@@ -221,6 +220,7 @@
     <script src='https://code.jquery.com/jquery-3.2.1.min.js' integrity='sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=' crossorigin='anonymous'></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/scramble.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="script.js"></script>
   </body>
 </html>

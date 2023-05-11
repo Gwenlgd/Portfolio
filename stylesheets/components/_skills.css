@@ -1,10 +1,13 @@
 .skills {
-  height: 100%;
-  margin-top: 150px;
+  /* height: 100%; */
+  margin-top: 250px;
 }
 
+.skills-h2 {
+  margin: 100px;
+}
 .skills-container {
-  margin: 70px 70px 40px 70px;
+  margin: 90px 70px 50px 70px;
   display: flex;
 }
 
@@ -22,7 +25,7 @@
 
 /*  SOFT SKILLS */
 .soft-skills {
-  margin-bottom: 200px;
+  margin-bottom: 300px;
 }
 .messagedefilant,
 .messagedefilant-soft {
