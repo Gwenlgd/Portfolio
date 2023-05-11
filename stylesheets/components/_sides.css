@@ -47,9 +47,9 @@
 
 .side-right a {
   font-weight: 100;
-  font-size: 12px!important;
+  font-size: 	0.8 rem!important;
   /* margin: 20px auto; */
-  padding: 13px;
+  padding: 	0.8 rem;
   letter-spacing: 0.1em;
   -webkit-writing-mode: vertical-rl;
   writing-mode: vertical-rl;

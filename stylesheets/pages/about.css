@@ -11,6 +11,7 @@
 
 .intro {
   width: 500px;
+  height: 500px;
   margin-top: 30px;
   text-align: right;
   font-weight: lighter;
@@ -20,6 +21,7 @@
   height: 500px;
   border: solid;
   border-radius: 5px;
+  margin-top: 30px;
 }
 
 h4 {

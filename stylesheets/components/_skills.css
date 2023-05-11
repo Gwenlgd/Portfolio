@@ -1,6 +1,7 @@
 .skills {
   /* height: 100%; */
   margin-top: 250px;
+  transition-duration: 4s;
 }
 
 .skills-h2 {
@@ -50,7 +51,7 @@
 .messagedefilant-soft div span {
   position: relative;
   display: inline-block;
-  font-size: 25px;
+  font-size: 1.6rem;
   white-space: nowrap;
   top:0;
 }

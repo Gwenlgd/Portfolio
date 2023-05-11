@@ -1,6 +1,14 @@
+.project-name {
+  margin: 0px;
+}
 
+.projects h2 {
+  margin: 0px;
+
+}
 .card-project {
   display: flex;
+  margin-bottom: 50px;
 }
 
 .card-descr {
@@ -8,7 +16,9 @@
   height: 550px;
   text-align: left;
   font-weight: lighter;
-  margin-top: 35px;
+  margin-top: 15px;
+  line-height: 1.5;
+
 }
 
 .card-descr h2, h3 {
@@ -24,19 +34,19 @@
 .card-lang .skills-title {
   flex-basis: 0%;
   margin-top: 10px;
-  padding: 5px;
+  padding: 5px 5px 5px 0px;
 }
 
 .lang i {
-  font-size: 30px;
+  font-size: 2em;
 }
 
 
 /* SLIDES */
 .contener_slideshow
 {
-  height: 500px;
-  width: 300px;
+  height: 600px;
+  width: 450px;
   overflow: hidden;
   position: relative;
   margin: 0px 70px 0px 50px;
@@ -49,7 +59,7 @@
 
 .slid_1 img, .slid_2 img, .slid_3 img, .slid_4 img, .slid_5 img, .slid_6 img
 {
-  height: 550px;
+  height: 600px;
 }
 .slid_1{left: 0;}
 .slid_2{left: 340px;}
