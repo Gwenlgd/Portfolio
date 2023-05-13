@@ -21,6 +21,10 @@
 
 }
 
+.card-descr p {
+  text-align: right;
+}
+
 .card-descr h2, h3 {
   margin-bottom: 25px;
 }
@@ -44,7 +48,7 @@
 
 
 /* SLIDES */
-.contener_slideshow
+.contenaire-slideshow
 {
   height: 600px;
   width: 450px;
@@ -68,7 +72,7 @@
 .slid_4{left: 960px;}
 .slid_5{left: 1270px;}
 .slid_6{left: 1580px;}
-.contener_slide
+.contenaire_slide
 {
   width: 1220px;
   height: 211px;
