@@ -4,6 +4,11 @@ h1, h2, h3 {
   font-family: 'Quicksand', sans-serif;
  }
 
+ .hello-intro2 p {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+ }
+
 body {
   font-family: 'Roboto', sans-serif;
 }

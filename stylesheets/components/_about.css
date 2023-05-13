@@ -1,0 +1,49 @@
+/* INTRO */
+
+.hello-intro {
+  height: 100vh;
+  flex-flow: column wrap;
+  display: flex;
+  justify-content:center;
+}
+
+.about-h2 {
+  margin-top: 50px;
+}
+
+.hello-intro h1, p {
+  display: flex;
+  text-align: left;
+  align-items: center;
+}
+
+/* ABOUT */
+
+.card-hello {
+  display: flex;
+  margin-bottom: 90px;
+}
+
+.hello-about {
+  width: 500px;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.about {
+  width: 500px;
+  text-align: left;
+  font-weight: lighter;
+}
+
+.hello-img {
+  width: 100%;
+  height: auto;
+  border: solid;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+h4 {
+  font-weight: lighter;
+}
