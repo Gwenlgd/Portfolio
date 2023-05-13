@@ -1,14 +1,18 @@
 .nav-bar {
-  padding: 0px 50px;
+  /* padding: 0px 50px; */
+  background: none;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
+  /* position: fixed;
+  transition: top 0.3s; */
 }
 
  .nav-links ol {
     display: flex;
     justify-content: space-between;
+    float: right;
 
  }
 
@@ -17,6 +21,8 @@
   position: relative;
   color: #4E8098;
   font-weight: bold;
+  float: left;
+
 }
 
 .logo-container .img-logo {
