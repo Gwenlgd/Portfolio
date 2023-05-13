@@ -1,7 +1,7 @@
 .skills {
   /* height: 100%; */
   margin-top: 250px;
-  transition-duration: 4s;
+  /* transition-duration: 4s; */
 }
 
 .skills-h2 {
@@ -22,6 +22,7 @@
   text-align: center;
   color: #4E8098;
   font-weight: bold;
+  justify-content: center;
 }
 
 /*  SOFT SKILLS */
