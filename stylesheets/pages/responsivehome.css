@@ -38,6 +38,7 @@
     flex-flow: column wrap;
     margin: 10px;
   }
+
    .sous-conteneur-flex {
     display: flex;
     flex-flow: column wrap;
