@@ -5,11 +5,11 @@
   }
 }
 
-/* @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .pa-container {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* .pa-container {
     background-color: red;
-  }
-} */
+  } */
+}
 
 
 .main-container {
