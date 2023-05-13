@@ -1,4 +1,4 @@
-
+/* MOBILE */
 @media only screen and (max-width: 764px) {
 
   * > * {
@@ -25,11 +25,19 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
+  .hello-intro {
+    width: 90%;
+    margin: 0px 20px;
+    height: 100%;
+  }
+
+  .hello-intro p {
+    font-size: 1rem;
+  }
 
    .conteneur-flex {
     flex-flow: column wrap;
     margin: 10px;
-
   }
    .sous-conteneur-flex {
     display: flex;
@@ -37,51 +45,49 @@
     justify-content: space-around;
     width: 100%;
     margin-left: 0px!important;
-    margin: 0px 10px;
+    /* margin: 0px 10px; */
   }
 
   .element-flex {
     flex-flow: row wrap;
+    width: 100%;
   }
 
-  /*
-  .sous-conteneur-flex img {
-    width: 100%;
-  } */
+  .about {
+    margin-left: 0px!important;
 
-
-  .intro p {
+  }
+  .about p {
     flex: 1;
-    width: 100%;
-    height: 0px;
+    width: 60%;
+    height: auto;
     text-align: center;
     font-weight: lighter;
     font-size: 1rem;
-    margin-left: 0px!important;
-    justify-content: space-around;
-
   }
-
 
   .card-hello {
     flex-flow: column wrap;
     margin-bottom: 20px;
   }
 
-  .hello-intro {
+  .hello-about {
     width: 100%;
     text-align: center;
     margin-left: 0px;
   }
 
   .hello-img {
-    width: 100%;
+    width: 90%;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hello-img img {
+    justify-content: space-around;
   }
 
-  .main-container.fillHeight {
-    padding: 0px;
+  .main-container {
+    padding: 15px;
   }
-
-
 }
