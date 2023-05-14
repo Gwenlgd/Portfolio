@@ -3,23 +3,23 @@
   .pa-container {
     width: 100%;
   }
+
+  .main-container, .contenair-flex {
+    width: 100%;
+  }
+
+
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  /* .pa-container {
-    background-color: red;
-  } */
+.logo {
+  visibility: hidden;
 }
-
 
 .main-container {
     max-width: 1000px;
     margin: 0 auto;
-    width: 90%;
-    height: 100%;
     width: 100%;
     /* max-width: 1600px;
-    min-height: 100vh;
     padding: 200px 150px;
     display: inline-block; */
 }
@@ -50,7 +50,9 @@ h2 {
 }
 
 .hello-intro2 p {
-  font-size: 2.3rem;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  color: #4E8098;
 }
 
   /* LINKS */
@@ -64,4 +66,36 @@ li,
 a {
   text-decoration: none;
   list-style: none;
+}
+
+ul {
+  padding: 0px;
+}
+
+.arrow {
+  position: absolute;
+  cursor: pointer;
+  font-size: 5.5rem;
+  left: 50%;
+  right: 50%;
+  color: #4E8098;
+}
+
+.arrow:active {
+  border-bottom: 4px solid #4E8098;
+}
+
+.arrow:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: #4E8098;
+}
+
+.material-symbols-outlined, .material-symbols-outlined p {
+  color: #4E8098;
+  font-size: 1rem;
+}
+
+.spacer {
+  height: 20vh;
 }
