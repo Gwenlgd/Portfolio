@@ -1,7 +1,9 @@
 /* INTRO */
-
-.hello-intro {
+.welcome {
   height: 100vh;
+}
+.hello-intro {
+  /* height: 100vh; */
   width: 100%;
   flex-flow: column wrap;
   display: flex;
@@ -16,6 +18,26 @@
   display: flex;
   text-align: left;
   align-items: center;
+}
+/* ARROW */
+..material-icons {
+  font-size: 5.5rem;
+
+}
+.arrow {
+  position: relative;
+  margin-top: 60px;
+  cursor: pointer;
+  font-size: 4.5rem!important;
+  color: #4E8098;
+}
+
+.arrow:active {
+  border-bottom: 2px solid #4E8098;
+}
+
+.arrow:hover {
+  color: #092327;
 }
 
 /* ABOUT */

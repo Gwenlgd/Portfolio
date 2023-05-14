@@ -40,7 +40,9 @@
     width: 100%;
   }
   .arrow {
-    left: 45%;
+    position: absolute!important;
+    top: 85%;
+    left: 42%;
   }
 
   /* INTRO */

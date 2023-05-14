@@ -8,7 +8,6 @@
     width: 100%;
   }
 
-
 }
 
 .logo {
@@ -70,25 +69,6 @@ a {
 
 ul {
   padding: 0px;
-}
-
-.arrow {
-  position: absolute;
-  cursor: pointer;
-  font-size: 5.5rem;
-  left: 50%;
-  right: 50%;
-  color: #4E8098;
-}
-
-.arrow:active {
-  border-bottom: 4px solid #4E8098;
-}
-
-.arrow:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  color: #4E8098;
 }
 
 .material-symbols-outlined, .material-symbols-outlined p {
