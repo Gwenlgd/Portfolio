@@ -9,7 +9,7 @@ h1, h2, h3 {
   font-weight: 400;
  }
 
-body {
+body, .material-symbols-outlined p {
   font-family: 'Roboto', sans-serif;
 }
 

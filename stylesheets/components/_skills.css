@@ -1,7 +1,13 @@
+.skills-sec {
+  height: 100vh;
+  /* padding-top: 10px; */
+}
+
 .skills {
   /* height: 100%; */
   margin-top: 250px;
   /* transition-duration: 4s; */
+  transition: transform 0.2s linear;
 }
 
 .skills-h2 {
