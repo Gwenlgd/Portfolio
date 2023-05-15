@@ -66,7 +66,7 @@
 
   .about {
     margin-left: 0px!important;
-
+    display: block;
   }
   .about p {
     width: 70%;
@@ -76,6 +76,9 @@
     text-align: center!important;
     font-weight: lighter;
     font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .card-hello {
@@ -174,6 +177,9 @@
 
   .card-descr-text p {
     text-align: center!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .card-descr-text h3 {
@@ -186,6 +192,9 @@
     width: 43%;
     justify-content: center!important;
     margin: 35px!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .contenaire-slideshow {
