@@ -1,0 +1,61 @@
+/* ABOUT - WELCOME MESSAGE  */
+.about-me {
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
+}
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 90px;
+
+
+  @media (max-width: 1250px) {
+    flex-flow: wrap;
+    @include flex();
+    @include flex-wrap();
+  }
+}
+
+.about-photo {
+  width: clamp(200px, 75%, 600px);
+  /* flex-basis: 20em */
+}
+
+.about-img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  min-width: 200px;
+}
+
+.hello-about {
+  display: flex;
+  align-content: center;
+
+  @media (max-width: 1250px) {
+
+    text-align: center;
+  }
+}
+
+.about-text {
+  max-width: 600px;
+  text-align: left;
+  font-weight: lighter;
+  margin-left: 50px;
+
+  @media (max-width: 1250px) {
+    margin-left: 0px;
+    margin-top: 30px;
+    text-align: center;
+  }
+}
+
+.about-text p {
+  @media (max-width: 1250px) {
+    margin-top: 10px;
+    text-align: center;
+  }
+}

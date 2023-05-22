@@ -1,0 +1,129 @@
+
+
+.hard-skills-list {
+  /* transition-duration: 4s; */
+  /* transition: transform 0.2s linear; */
+  /* margin-bottom: 90px; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+
+}
+
+@media (max-width: 1300px) {
+  .hard-skills-show {
+  height: 100%;
+  margin: 30px 10px 60px 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: center;
+  }
+}
+
+
+  @media (max-width: 1300px) {
+    .hard-skills-show {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    }
+  }
+
+  @media (max-width: 450px) {
+    .hard-skills-show {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    }
+  }
+
+
+
+.skills-title {
+  margin: 40px;
+
+  @media (max-width: 1300px) {
+    flex-basis: 30%;
+    margin: 30px;
+    }
+}
+
+
+.skills-title i {
+  font-size: 4em;
+  display: flex;
+  justify-content: center;
+}
+
+.skills-title p {
+  justify-content: center;
+  color: #4E8098;
+  font-size: 0.9em;
+  font-weight: bold;
+  padding-top: 2em;
+}
+
+/* END HARD SKILLS */
+
+/*  SOFT SKILLS */
+.sec-soft-skills {
+  margin-top: 100px;
+}
+.soft-skills {
+  margin-bottom: 100px;
+}
+
+.soft-skills-title , .soft-skills-list {
+  display: block;
+  margin: 20px auto;
+  padding: 0px;
+  overflow: hidden;
+  position: relative;
+  min-width: 100%;
+  max-width: 2400px;
+  height: 60px;
+}
+
+.soft-skills-title div,
+.soft-skills-list div {
+  position: absolute;
+  min-width: 100%;
+  height: 60px;
+}
+
+.soft-skills-title div span,
+.soft-skills-list div span {
+  position: relative;
+  display: inline-block;
+  font-size: 1.6rem;
+  white-space: nowrap;
+  top:0;
+  color: var(--clr-text-light);
+
+}
+
+.soft-skills-list div span {
+  animation: defilement 25s infinite linear;
+  animation-iteration-count: infinite;
+  padding: 10px;
+
+}
+
+.soft-skills-title div span {
+  animation: defilement2 25s infinite linear;
+  animation-iteration-count: infinite;
+  padding: 10px;
+  animation-direction: reverse;
+}
+
+@keyframes defilement {
+  from   { transform: translateX(0%); }
+  to { transform: translateX(-50%); }
+}
+
+@keyframes defilement2 {
+  from   { transform: translateX(0%); }
+  to { transform: translateX(-50%); }
+}
