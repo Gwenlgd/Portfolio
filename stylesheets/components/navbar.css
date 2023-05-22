@@ -6,7 +6,7 @@
   display: flex;
   -webkit-box-pack: end;
   -ms-flex-pack: end;
-   flex-end;
+   justify-content: flex-end;
   -ms-flex-line-pack: center;
   align-items: center;
   /* transition: top 0.3s; */
