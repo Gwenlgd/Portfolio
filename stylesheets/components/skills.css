@@ -33,7 +33,7 @@
 
   @media (max-width: 450px) {
     .hard-skills-show {
-    margin: 10px;
+    margin: 5px;
     display: flex;
     justify-content: center;
     }
@@ -50,11 +50,24 @@
     }
 }
 
+.skills-title {
+
+  @media (max-width: 450px) {
+    flex-basis: 30%;
+    margin: 0px;
+    }
+}
+
 
 .skills-title i {
   font-size: 4em;
   display: flex;
   justify-content: center;
+
+  @media (max-width: 450px) {
+    font-size: 7em;
+    margin: 0px;
+    }
 }
 
 .skills-title p {
