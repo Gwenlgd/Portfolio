@@ -1,0 +1,55 @@
+/* INTRO - WELCOME NAME*/
+/* .welcome {
+  height: 100vh;
+   margin: 200px;
+} */
+.welcome-name {
+  /* height: 100vh; */
+  width: 90%;
+  flex-flow: column wrap;
+  display: flex;
+  justify-content:center;
+
+  @media (max-width: 500px) {
+    justify-content: center;
+  }
+}
+
+.welcome-name h1, p {
+  display: flex;
+  text-align: left;
+  align-items: center;
+}
+
+.welcome-message p {
+  font-size: clamp(1rem, 2.5vw, 2rem);
+  text-transform: uppercase;
+  color: #4E8098;
+}
+
+/* END INTRO */
+
+/* ARROW */
+
+
+.arrow {
+  position: relative;
+  margin-top: 60px;
+  cursor: pointer;
+  font-size: clamp(2rem, 5vw, 5rem);
+  color: #4E8098;
+  text-align: center;
+
+}
+
+.arrow:active {
+  border-bottom: 2px solid #4E8098;
+}
+
+.arrow:hover {
+  color: #092327;
+}
+
+
+
+/* END ARROW */
