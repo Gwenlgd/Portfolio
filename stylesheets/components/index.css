@@ -1,8 +1,8 @@
-@import "./_about.css";
-@import "./_contact.css";
-@import "./_footer.css";
-@import "./_navbar.css";
-@import "./_project.css";
-@import "./_sides.css";
-@import "./_skills.css";
-@import "./_welcome.css";
+@import "about.css";
+@import "contact.css";
+@import "footer.css";
+@import "navbar.css";
+@import "project.css";
+@import "sides.css";
+@import "skills.css";
+@import "welcome.css";
