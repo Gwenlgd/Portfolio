@@ -4,6 +4,8 @@ footer {
 }
 
 footer p {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   text-transform: uppercase;
   font-size: 0.5rem;

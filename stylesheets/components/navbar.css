@@ -1,13 +1,20 @@
 .nav-bar {
   background: none;
   top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: end;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+   flex-end;
+  -ms-flex-line-pack: center;
   align-items: center;
   /* transition: top 0.3s; */
   padding: 20px 30px ;
 
     @media (max-width: 700px) {
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
       justify-content: center;
   }
 }
@@ -15,6 +22,8 @@
 .nav-link {
   color: var(--clr-links);
   text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   transition: 0.3s ease;
 

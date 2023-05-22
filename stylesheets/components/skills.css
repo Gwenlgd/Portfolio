@@ -1,13 +1,17 @@
-
+/* SKILLS */
 
 .hard-skills-list {
   /* transition-duration: 4s; */
   /* transition: transform 0.2s linear; */
   /* margin-bottom: 90px; */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
+  -ms-flex-line-pack: center;
   align-items: center;
-  display: flex;
 
 }
 
@@ -15,9 +19,12 @@
   .hard-skills-show {
   height: 100%;
   margin: 30px 10px 60px 10px;
+  -ms-flex-direction: row;
   flex-direction: row;
   flex-wrap: wrap;
   flex: 1;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   }
 }
@@ -27,6 +34,8 @@
     .hard-skills-show {
     margin: 30px;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     }
   }
@@ -34,7 +43,11 @@
   @media (max-width: 450px) {
     .hard-skills-show {
     margin: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     }
   }
@@ -61,7 +74,11 @@
 
 .skills-title i {
   font-size: 4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 
   @media (max-width: 380px) {
@@ -70,6 +87,8 @@
 }
 
 .skills-title p {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   color: #4E8098;
   font-size: 0.9em;
