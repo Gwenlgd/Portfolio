@@ -155,5 +155,5 @@ app.init = () => {
 // Doc Ready
 $(function(){
     app.init();
-    AOS.init();
+    // AOS.init();
 });
