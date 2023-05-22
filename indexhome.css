@@ -1,0 +1,13 @@
+
+/* Reset */
+@import "./stylesheets/pages/reset.css";
+
+/*  Graphical variables */
+@import "./stylesheets/config/fonts.css";
+@import "./stylesheets/config/colors.css";
+
+/* Components */
+@import "./stylesheets/components/index.css";
+
+/* Pages  */
+@import "./stylesheets/pages/index.css";
