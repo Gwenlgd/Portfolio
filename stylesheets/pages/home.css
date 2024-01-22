@@ -84,7 +84,8 @@ ul {
 }
 
 li {
-  margin: 0px 15px;
+  /* margin: 0px 15px; */
+  margin: 0em 0.9375em;
   font-weight: bold;
   font-size: clamp(0.5rem, 2.5vw, 1.3rem);
 }
