@@ -16,16 +16,22 @@
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center;
+      padding: 1.3rem 1.3rem;
   }
 }
 
-/* .nav-lang {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-   justify-content: flex-start;
+li.nav-bar {
+
+  @media (max-width: 700px) {
+    margin: 0px 5px!;
+  }
+}
+
+/*
+li.nav-link {
+  @media (max-width: 700px) {
+    margin: 0rem 0.50rem!;
+  }
 } */
 
 
@@ -36,4 +42,8 @@
   display: -ms-flexbox;
   display: flex;
   transition: 0.3s ease;
+
+  @media (max-width: 700px) {
+    margin: 0rem 0.05rem;
+  }
 }
